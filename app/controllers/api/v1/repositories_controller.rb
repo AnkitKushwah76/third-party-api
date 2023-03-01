@@ -9,6 +9,7 @@ class Api::V1::RepositoriesController < ApplicationController
   def user_repos
     response = HTTParty.get(User::BASE_URI+"/#{params[:user]}/#{params[:repo]}")
     repo = Repository.create_repo(response,params[:user])
-    render json:repo 
+    render json:repo
+    
   end
 end
