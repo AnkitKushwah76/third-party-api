@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  repos_name: MyString
+  stargazers_count: MyString
+  user: one
+
+two:
+  repos_name: MyString
+  stargazers_count: MyString
+  user: two
